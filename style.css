@@ -59,6 +59,12 @@ header::after {
   margin-top: 20px;
 }
 
+.eventos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
 .coluna {
   width: 45%;
   background-color: #1a1a33;
