@@ -62,6 +62,9 @@ header::after {
 .botao:hover {
   background: linear-gradient(to right, #0000ff, #00ff00, #ff0000);
 }
+.botao:active {
+font-size: 10px;
+}
 .botao1 {
   position: fixed;
   top: 20px;
@@ -75,6 +78,9 @@ header::after {
 
 .botao1:hover {
   background: linear-gradient(to right, #0000ff, #00ff00, #ff0000);
+}
+.botao1:active {
+  font-size: 10px;
 }
 header {
   background-color: #f2f2f2;
