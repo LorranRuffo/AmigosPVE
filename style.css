@@ -48,6 +48,13 @@ header::after {
   image-rendering: crisp-edges; /* Ajusta a renderização da imagem */
   image-rendering: pixelated; /* Ajusta a renderização da imagem */
 }
+.gif {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+}
 .botao {
   position: fixed;
   top: 20px;
