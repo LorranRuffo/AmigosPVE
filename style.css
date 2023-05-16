@@ -79,6 +79,7 @@ header::after {
 .coluna ul {
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 
 .coluna ul li {
