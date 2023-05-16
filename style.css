@@ -53,6 +53,35 @@ header::after {
   top: 0;
   right: 0;
 }
+.eventos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.coluna {
+  width: 45%;
+  background-color: #1a1a33;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.coluna h2 {
+  margin-top: 0;
+}
+
+.coluna ul {
+  list-style: none;
+  padding: 0;
+}
+
+.coluna ul li {
+  margin-bottom: 10px;
+}
+
+.coluna ul li img {
+  width: 100%;
+}
 .botao {
   position: fixed;
   top: 20px;
