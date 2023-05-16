@@ -2,6 +2,9 @@ body {
   background-color: #2a475f;
   
 }
+h2 {
+  color: #3cc1ff;
+}
 
 .gradiente {
   background: linear-gradient(to right, #8e20a9, #ff6600, #0000ff);
