@@ -21,23 +21,23 @@ h1 {
 color: aqua;
 }
 p {
-  color: #ffffff; /* Definir a cor do texto para que seja legível */
+  color: #ffffff; 
   text-align: center;
   padding: 20px;
 }
 header {
   background-image: url("55.jpg");
-  background-attachment: fixed; /* Fixa a imagem */
-  background-position: center; /* Posiciona a imagem no centro */
-  background-repeat: no-repeat; /* Evita a repetição da imagem */
-  background-size: cover; /* Cobrir todo o cabeçalho */
+  background-attachment: fixed; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
   padding: 20px;
   text-align: center;
 }
 
 header h1 {
   margin-top: 10px;
-  color: #ffffff; /* Define a cor do texto para legibilidade */
+  color: #ffffff; 
 }
 
 header::after {
@@ -51,9 +51,9 @@ header::after {
   height: 100%;
   pointer-events: none;
   z-index: -1;
-  image-rendering: -webkit-optimize-contrast; /* Ajusta a renderização da imagem */
-  image-rendering: crisp-edges; /* Ajusta a renderização da imagem */
-  image-rendering: pixelated; /* Ajusta a renderização da imagem */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges; 
+  image-rendering: pixelated; 
 }
 .gif {
   position: absolute;
